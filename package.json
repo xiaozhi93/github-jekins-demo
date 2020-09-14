@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@pokemon-ui/button": "^1.0.8",
-    "@pokemon-ui/table-pro": "^0.0.3",
+    "@pokemon-ui/table-pro": "^0.0.4",
     "core-js": "^3.6.5",
     "element-ui": "^2.13.2",
     "vue": "^2.6.11"
