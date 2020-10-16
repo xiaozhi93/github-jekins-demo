@@ -1,5 +1,9 @@
-<template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
-</template>
+<script>
+export default {
+  render() {
+    return (
+      <h1>11111</h1>
+    )
+  }
+}
+</script>
