@@ -449,6 +449,7 @@ export default {
     },
 
     toggleOrder({ order, sortOrders }) {
+      // 修改表格排序
       if (order === '') return sortOrders[0];
       const index = sortOrders.indexOf(order || null);
       return sortOrders[index > sortOrders.length - 2 ? 0 : index + 1];
