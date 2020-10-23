@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about" style="height: 1000px">
     <h1>This is an about page</h1>
     <el-table-new :data="tableData" style="width: 100%">
       <el-table-column-new prop="date" label="日期" width="180">
