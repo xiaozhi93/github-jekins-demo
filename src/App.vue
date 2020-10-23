@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!-- <el-scrollbar style="height: 100%"> -->
+    <el-scrollbar style="height: 100%">
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
@@ -9,7 +9,7 @@
       <!-- <div style="height: 800px; overflow: auto;"> -->
         <router-view/>
       <!-- </div> -->
-    <!-- </el-scrollbar> -->
+    </el-scrollbar>
   </div>
 </template>
 
@@ -25,6 +25,8 @@ body {
   text-align: center;
   color: #2c3e50;
   height: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
   overflow: auto;
 }
 

@@ -35,12 +35,16 @@ const router = new VueRouter({
   // scrollBehavior(to, from, savedPosition) {
   //   return { x: 0, y: 0 }
   // }
+  // scrollBehavior(to, from, savedPosition) {
+  //   if (savedPosition) {
+  //     return savedPosition
+  //   } else {
+  //     return { x: 0, y: 0 }
+  //   }
+  // }
   scrollBehavior(to, from, savedPosition) {
-    if (savedPosition) {
-      return savedPosition
-    } else {
-      return { x: 0, y: 0 }
-    }
+    (document.querySelector('#app .el-scrollbar__wrap') as HTMLElement).scrollTo(0,0)
+    return { selector: '#app', offset: { x: 0, y: 0 } }
   }
 })
 
