@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "greet": "vue-cli-service greet"
   },
   "dependencies": {
     "@pokemon-ui/button": "^1.0.8",
@@ -35,6 +36,7 @@
     "typescript": "~3.9.3",
     "vue-template-compiler": "^2.6.11"
   },
+  "VuePlugins": ["./deploy.js"],
   "eslintConfig": {
     "root": true,
     "env": {
